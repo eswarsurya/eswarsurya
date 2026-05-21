@@ -6,16 +6,16 @@ I use Python, SQL, Power BI, Tableau, and machine learning methods to turn data 
 
 ## Featured Projects
 
-### Human Vitals Anomaly Detection Thesis
+### [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis)
 Machine learning thesis project using Isolation Forest and SHAP explainability to detect unusual vital-sign patterns across 200020 records.
 
-### Customer Support Ticket Analytics
+### [Customer Support Ticket Analytics](https://github.com/eswarsurya/customer-support-ticket-analytics-bi)
 Business intelligence project focused on support ticket patterns, service quality, dashboard reporting, and data quality review.
 
-### Walmart Sales Analytics
+### [Walmart Sales Analytics](https://github.com/eswarsurya/walmart-sales-analytics-python-sql)
 Retail analytics project using Python, SQL-style analysis, and business reporting to explore sales trends and performance drivers.
 
-### Formula 1 Race Analytics
+### [Formula 1 Race Analytics](https://github.com/eswarsurya/formula-1-race-analytics-wip)
 Work-in-progress analytics project using FastF1, Python, and Power BI direction to analyse race results and driver performance.
 
 ## Technical Skills
