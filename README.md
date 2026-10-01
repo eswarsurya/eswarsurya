@@ -1,4 +1,6 @@
-# Eswar Surya Danaboina
+<div align="center">
+  <img src="./profile-banner.svg" alt="Eswar Surya — Data Analytics profile banner" width="100%">
+</div>
 
 ### Data Analyst · Business Intelligence · Data Engineering · Machine Learning
 
