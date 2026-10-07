@@ -64,12 +64,12 @@ The goal is not only to produce a model or dashboard, but to make the output und
 
 ---
 
-## 🤖 Currently Building
+## 🤖 Current Focus
 
 - AI-assisted analytics and automation workflows with **n8n + APIs**
 - Practical **AI/LLM workflows and agent tooling**
-- Formula 1 analytics with **FastF1 + Python + Power BI**
-- Stronger **data engineering foundations** around ETL, modelling, APIs, and cloud concepts
+- Extending completed analytics projects with stronger **data engineering and API patterns**
+- Building deeper foundations around **ETL, modelling, databases, APIs, and cloud concepts**
 
 ---
 
