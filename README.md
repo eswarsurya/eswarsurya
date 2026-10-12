@@ -18,6 +18,18 @@ I build reproducible infrastructure and automation projects focused on reliable 
 | [Human Vitals Anomaly API](https://github.com/eswarsurya/human-vitals-anomaly-api) | Flask API, ML inference and Docker-oriented packaging | See repository README for setup and evidence |
 | [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis) | Python, Isolation Forest and SHAP explainability | Academic / ML project |
 
+## Master's projects
+
+I completed these projects as part of my MSc Data Analytics and related academic work. The index groups machine-learning, BI/dashboarding and Python/SQL analytics projects, while preserving each project's original repository and history.
+
+**[Browse my Master's projects →](https://github.com/eswarsurya/eswarsurya/tree/main/masters-projects)**
+
+- [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis)
+- [LSTM Anomaly Detection Timeseries](https://github.com/eswarsurya/lstm-anomaly-detection-timeseries)
+- [Bike Sales Dashboard — Tableau](https://github.com/eswarsurya/bike-sales-dashboard-tableau-project)
+- [Customer Support Ticket Analytics BI](https://github.com/eswarsurya/customer-support-ticket-analytics-bi)
+- [Walmart Sales Analytics — Python & SQL](https://github.com/eswarsurya/walmart-sales-analytics-python-sql)
+
 ## Technical toolbox
 
 - **Cloud & IaC:** AWS fundamentals, Terraform, infrastructure design and cost/security awareness
