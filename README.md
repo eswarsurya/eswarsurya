@@ -87,7 +87,7 @@ The goal is not only to produce a model or dashboard, but to make the output und
 
 🌐 **Portfolio:** [eswardanaboina.vercel.app](https://eswardanaboina.vercel.app/)  
 💼 **LinkedIn:** [linkedin.com/in/eswarsurya76](https://www.linkedin.com/in/eswarsurya76/)  
-📧 **Email:** [eswarsurya89@gmail.com](mailto:eswarsurya89@gmail.com)  
+📧 **Email:** [eswardanaboina@gmail.com](mailto:eswardanaboina@gmail.com)  
 📁 **Projects:** [github.com/eswarsurya](https://github.com/eswarsurya)
 
 ---
