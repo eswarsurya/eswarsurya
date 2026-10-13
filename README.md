@@ -16,6 +16,7 @@ All projects live in **[devops-portfolio](https://github.com/eswarsurya/devops-p
 | Project | What it shows |
 | --- | --- |
 | [Jenkins Pipeline](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/jenkins-pipeline) | Jenkins configured as code. Test, build, scan, staging, approval, production, with health checks and automatic rollback. CI proves a broken release never reaches production. |
+| [Grid Signal (Google Cloud)](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/gcp-grid-signal) | Live Irish grid carbon intensity on GCP: Cloud Run, Cloud Run Jobs, Scheduler and Firestore in Terraform, keyless deploys from GitHub, uptime alerts, a budget, and a carbon-aware CI gate. |
 | [Kubernetes GitOps Platform](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/k8s-gitops-platform) | Helm chart with autoscaling, disruption budget and network policy, deployed by Argo CD (app-of-apps). CI installs it on a 3-node kind cluster, runs `helm test`, upgrades and tests again. |
 | [Terraform AWS Web Stack](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/terraform-aws-webstack) | Terraform modules for a two-AZ VPC, ALB and Auto Scaling Group, S3 remote state with locking, `terraform test` with a mocked AWS provider, Trivy IaC scan. |
 | [Docker CI/CD Pipeline](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/docker-cicd-pipeline) | Lint, tests, container smoke test, Trivy image scan, push to GHCR, and an optional EC2 deploy behind a manual approval gate. |
@@ -28,7 +29,7 @@ Also in the repo: CI Log Doctor (explains failed builds on the pull request), a 
 
 ## Toolbox
 
-- **Cloud:** AWS (EC2, S3, VPC, IAM, RDS, Route 53, ALB, Auto Scaling, CloudWatch)
+- **Cloud:** AWS (EC2, S3, VPC, IAM, RDS, Route 53, ALB, Auto Scaling, CloudWatch); Google Cloud (Cloud Run, Scheduler, Firestore, Artifact Registry, IAM, Workload Identity Federation)
 - **IaC & config:** Terraform, Ansible
 - **Containers:** Docker, Kubernetes, Helm, Argo CD
 - **CI/CD:** GitHub Actions, Jenkins, GHCR, Trivy, gitleaks
