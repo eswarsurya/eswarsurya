@@ -4,8 +4,8 @@
 
 # Eswar Surya Danaboina
 
-**DevOps Engineer · SRE · AWS Cloud** · Dublin, Ireland · Stamp 1G work authorisation  
-Open to DevOps, Site Reliability and Cloud Engineering roles in Ireland.
+**DevOps & Cloud Engineer** · AWS · Kubernetes · Terraform · Dublin, Ireland · Stamp 1G  
+Open to DevOps, SRE, Cloud and GCP Engineer roles in Ireland · [Portfolio site](https://eswarsurya.github.io/eswar-portfolio/)
 
 I've worked in DevOps since 2021: a 10-month internship at Signovate Technologies, then almost three years as a DevOps Engineer at Blockstars, supporting AWS infrastructure, Jenkins and GitHub Actions pipelines, Docker and Kubernetes deployments, and Terraform and Ansible automation. After an MSc in Data Analytics in Dublin, I built the portfolio below to show how I work today: everything is tested in CI, and nothing claims more than it proves.
 
@@ -47,4 +47,4 @@ From my MSc Data Analytics: [anomaly detection in human vitals (thesis)](https:/
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/eswarsurya76/) · [eswardanaboina@gmail.com](mailto:eswardanaboina@gmail.com)
+[Portfolio](https://eswarsurya.github.io/eswar-portfolio/) · [LinkedIn](https://www.linkedin.com/in/eswarsurya76/) · [eswardanaboina@gmail.com](mailto:eswardanaboina@gmail.com)
