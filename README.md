@@ -1,64 +1,49 @@
 <div align="center">
-  <img src="./profile-banner.svg" alt="Eswar Surya — Cloud and DevOps engineering profile banner" width="100%">
+  <img src="./profile-banner.svg" alt="Eswar Surya Danaboina, DevOps and cloud engineer, Dublin" width="100%">
 </div>
 
 # Eswar Surya Danaboina
 
-**DevOps Engineer · AWS Cloud · Infrastructure as Code · CI/CD · Automation**  
-Dublin, Ireland · Open to DevOps, Cloud Engineering and Platform Engineering opportunities
+**DevOps Engineer · SRE · AWS Cloud** · Dublin, Ireland · Stamp 1G work authorisation  
+Open to DevOps, Site Reliability and Cloud Engineering roles in Ireland.
 
-I build reproducible infrastructure and automation projects focused on reliable deployments, secure defaults, observability, and operational troubleshooting. My portfolio covers AWS, Terraform, Docker, Kubernetes/GitOps, Ansible, CI/CD, and AI-assisted operations. I also bring a background in data analytics and applied machine learning.
+I've worked in DevOps since 2021: a 10-month internship at Signovate Technologies, then almost three years as a DevOps Engineer at Blockstars, supporting AWS infrastructure, Jenkins and GitHub Actions pipelines, Docker and Kubernetes deployments, and Terraform and Ansible automation. After an MSc in Data Analytics in Dublin, I built the portfolio below to show how I work today: everything is tested in CI, and nothing claims more than it proves.
 
-## Featured DevOps portfolio
+## DevOps portfolio
 
-| Project | What it demonstrates | Current evidence status |
-| --- | --- | --- |
-| [DevOps Portfolio Hub](https://github.com/eswarsurya/devops-portfolio) | Curated home for documented DevOps labs | Projects and documentation are published; check each project README and linked CI for current validation status |
-| [Ansible Linux Hardening](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/ansible-linux-hardening) | Ansible roles, SSH configuration validation, fail2ban and CI linting | Source and CI checks; real-VM validation pending |
-| [Human Vitals Anomaly API](https://github.com/eswarsurya/human-vitals-anomaly-api) | Flask API, ML inference and Docker-oriented packaging | See repository README for setup and evidence |
-| [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis) | Python, Isolation Forest and SHAP explainability | Academic / ML project |
+All projects live in **[devops-portfolio](https://github.com/eswarsurya/devops-portfolio)**, each with its own GitHub Actions workflow.
 
-## Master's projects
+| Project | What it shows |
+| --- | --- |
+| [Kubernetes GitOps Platform](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/k8s-gitops-platform) | Helm chart with autoscaling, disruption budget and network policy, deployed by Argo CD (app-of-apps). CI installs it on a 3-node kind cluster, runs `helm test`, upgrades and tests again. |
+| [Terraform AWS Web Stack](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/terraform-aws-webstack) | Terraform modules for a two-AZ VPC, ALB and Auto Scaling Group, S3 remote state with locking, `terraform test` with a mocked AWS provider, Trivy IaC scan. |
+| [Docker CI/CD Pipeline](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/docker-cicd-pipeline) | Lint, tests, container smoke test, Trivy image scan, push to GHCR, and an optional EC2 deploy behind a manual approval gate. |
+| [Rail Pulse](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/rail-pulse) | Live Irish Rail punctuality run as an SRE service: 85% SLO, Prometheus alerts unit-tested with promtool, Grafana, and a daily check that the live API hasn't changed. |
+| [AIOps Triage Agent](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/aiops-triage-agent) | A Prometheus alert starts a Claude agent that investigates Kubernetes with read-only tools. Any fix it proposes runs only after a human approves it. |
+| [LLM Gateway](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/llm-gateway) | Control plane for company Claude API use: team keys, rate limits, budgets, PII redaction, caching, cost metrics. |
+| [Ansible Linux Hardening](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/ansible-linux-hardening) | SSH hardening, fail2ban and a host audit script. CI applies the role to a fresh Ubuntu 24.04 machine and re-runs it to prove nothing changes. |
 
-I completed these projects as part of my MSc Data Analytics and related academic work. The index groups machine-learning, BI/dashboarding and Python/SQL analytics projects, while preserving each project's original repository and history.
+Also in the repo: CI Log Doctor (explains failed builds on the pull request), a read-only MCP server with SSRF protection, and verified, encrypted S3 backups in Bash.
 
-**[Browse my Master's projects →](https://github.com/eswarsurya/eswarsurya/tree/main/masters-projects)**
+## Toolbox
 
-- [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis)
-- [LSTM Anomaly Detection Timeseries](https://github.com/eswarsurya/lstm-anomaly-detection-timeseries)
-- [Bike Sales Dashboard — Tableau](https://github.com/eswarsurya/bike-sales-dashboard-tableau-project)
-- [Customer Support Ticket Analytics BI](https://github.com/eswarsurya/customer-support-ticket-analytics-bi)
-- [Walmart Sales Analytics — Python & SQL](https://github.com/eswarsurya/walmart-sales-analytics-python-sql)
+- **Cloud:** AWS (EC2, S3, VPC, IAM, RDS, Route 53, ALB, Auto Scaling, CloudWatch)
+- **IaC & config:** Terraform, Ansible
+- **Containers:** Docker, Kubernetes, Helm, Argo CD
+- **CI/CD:** GitHub Actions, Jenkins, GHCR, Trivy, gitleaks
+- **Observability:** Prometheus, Alertmanager, Grafana, ELK, SLOs
+- **Scripting:** Bash, Python (FastAPI, pytest), Linux administration
+- **AI automation:** Claude API (tool use, agents), MCP servers
 
-## Technical toolbox
+## Data and ML background
 
-- **Cloud & IaC:** AWS fundamentals, Terraform, infrastructure design and cost/security awareness
-- **Containers & orchestration:** Docker, Kubernetes, Helm, GitOps concepts
-- **CI/CD & automation:** GitHub Actions, Bash, Python, Ansible, workflow automation
-- **Operations & reliability:** Linux, troubleshooting, monitoring concepts, SLI/SLO thinking
-- **AI-assisted operations:** incident triage patterns, tool-based workflows, guarded remediation concepts
-- **Data & scripting:** Python, SQL, PostgreSQL, Power BI; applied analytics and anomaly detection
-
-## Engineering principles
-
-- Reproducible setup instructions and clear architecture notes
-- Automated checks wherever practical
-- Least-privilege access and secret-safe examples
-- Honest separation between locally tested, CI-passing and actually deployed work
-- No production or cloud-deployment claims without verifiable evidence
+From my MSc Data Analytics: [anomaly detection in human vitals (thesis)](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis), the same model served as a [Dockerised Flask API](https://github.com/eswarsurya/human-vitals-anomaly-api), and [more Master's projects](https://github.com/eswarsurya/eswarsurya/tree/main/masters-projects) (ML, BI dashboards, Python and SQL).
 
 ## Education
 
-**MSc Data Analytics — Dublin Business School** · 2025–2026 · 2:1  
-**B.Tech Computer Science & Engineering — Vel Tech** · CGPA 8.39 / 10
+**MSc Data Analytics (2:1)**, Dublin Business School · 2025–2026  
+**B.Tech Computer Science & Engineering**, Vel Tech · CGPA 8.39/10
 
-## Links
+## Contact
 
-- **Portfolio:** https://eswardanaboina.vercel.app/ *(existing site; redesign is not yet live)*
-- **LinkedIn:** https://www.linkedin.com/in/eswarsurya76/
-- **Email:** [eswardanaboina@gmail.com](mailto:eswardanaboina@gmail.com)
-- **GitHub:** https://github.com/eswarsurya
-
----
-
-*Build it. Test it. Document it. Improve it.*
+[LinkedIn](https://www.linkedin.com/in/eswarsurya76/) · [eswardanaboina@gmail.com](mailto:eswardanaboina@gmail.com)
