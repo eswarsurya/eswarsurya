@@ -4,10 +4,10 @@
 
 # Eswar Surya Danaboina
 
-**DevOps & Cloud Engineer** · AWS · Kubernetes · Terraform · Dublin, Ireland · Stamp 1G  
-Open to DevOps, SRE, Cloud and GCP Engineer roles in Ireland · [Portfolio site](https://eswarsurya.github.io/eswar-portfolio/)
+**Site Reliability & DevOps Engineer** · Kubernetes · Linux · Go · AWS · Azure · GCP · Dublin, Ireland · Stamp 1G  
+Open to SRE, DevOps, Platform and Cloud Engineer roles in Ireland · [Portfolio site](https://eswarsurya.github.io/eswar-portfolio/)
 
-I've worked in DevOps since 2021: a 10-month internship at Signovate Technologies, then almost three years as a DevOps Engineer at Blockstars, supporting AWS infrastructure, Jenkins and GitHub Actions pipelines, Docker and Kubernetes deployments, and Terraform and Ansible automation. After an MSc in Data Analytics in Dublin, I built the portfolio below to show how I work today: everything is tested in CI, and nothing claims more than it proves.
+I've worked in DevOps since 2021: a 10-month internship at Signovate Technologies, then almost three years as a DevOps Engineer at Blockstars, supporting AWS infrastructure, Jenkins and GitHub Actions pipelines, Docker and Kubernetes deployments, and Terraform and Ansible automation. After an MSc in Data Analytics in Dublin, I built the portfolio below to show how I work today: sixteen projects, every one tested in CI, and nothing claims more than it proves.
 
 ## DevOps portfolio
 
@@ -15,6 +15,10 @@ All projects live in **[devops-portfolio](https://github.com/eswarsurya/devops-p
 
 | Project | What it shows |
 | --- | --- |
+| [Go Replicated KV](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/go-replicated-kv) | A 3-node key-value store in Go with quorum reads and writes, read repair and a write-ahead log. SLO burn-rate alerts, a k6 load test and capacity plan, and a game day in CI that kills nodes and checks the page fires and clears, with a postmortem. |
+| [Linux Troubleshooting Lab](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/linux-troubleshooting-lab) | 13 Linux and network faults broken, diagnosed with real tools (strace, lsof, ss, tcpdump, tshark, tc netem) and fixed on a fresh machine in CI. |
+| [On-Prem Platform Lab](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/onprem-platform-lab) | A private data centre in Docker Compose: MySQL master-master and replica with Rundeck alerting, ELK, OpenLDAP, Nginx with ACME TLS, Apache/PHP and a WireGuard VPN, checked end to end in CI. |
+| [Hybrid Cloud & K8s Admin](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/hybrid-cloud-k8s-admin) | AWS Transit Gateway, peering, Site-to-Site VPN and cost controls; AKS with Azure DevOps and GitLab CI; CKA-style drills including etcd restore; OpenSearch cluster administration. |
 | [Jenkins Pipeline](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/jenkins-pipeline) | Jenkins configured as code. Test, build, scan, staging, approval, production, with health checks and automatic rollback. CI proves a broken release never reaches production. |
 | [Grid Signal (Google Cloud)](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/gcp-grid-signal) | Live Irish grid carbon intensity on GCP: Cloud Run, Cloud Run Jobs, Scheduler and Firestore in Terraform, keyless deploys from GitHub, uptime alerts, a budget, and a carbon-aware CI gate. |
 | [Kubernetes GitOps Platform](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/k8s-gitops-platform) | Helm chart with autoscaling, disruption budget and network policy, deployed by Argo CD (app-of-apps). CI installs it on a 3-node kind cluster, runs `helm test`, upgrades and tests again. |
@@ -29,12 +33,14 @@ Also in the repo: CI Log Doctor (explains failed builds on the pull request), a 
 
 ## Toolbox
 
-- **Cloud:** AWS (EC2, S3, VPC, IAM, RDS, Route 53, ALB, Auto Scaling, CloudWatch); Google Cloud (Cloud Run, Scheduler, Firestore, Artifact Registry, IAM, Workload Identity Federation)
+- **Cloud:** AWS (EC2, S3, VPC, IAM, RDS, Route 53, ALB, Auto Scaling, Transit Gateway, Site-to-Site VPN, CloudWatch); Google Cloud (Cloud Run, Scheduler, Firestore, Artifact Registry, IAM, Workload Identity Federation); Azure (AKS, ACR)
+- **On-prem:** MySQL replication, OpenLDAP, Nginx, Apache, WireGuard, Rundeck, Let's Encrypt (ACME)
 - **IaC & config:** Terraform, Ansible
 - **Containers:** Docker, Kubernetes, Helm, Argo CD
-- **CI/CD:** GitHub Actions, Jenkins, GHCR, Trivy, gitleaks
-- **Observability:** Prometheus, Alertmanager, Grafana, ELK, SLOs
-- **Scripting:** Bash, Python (FastAPI, pytest), Linux administration
+- **CI/CD:** GitHub Actions, Jenkins, Azure DevOps, GitLab CI, GHCR, Trivy, gitleaks
+- **Observability & reliability:** Prometheus, Alertmanager, Grafana, ELK, OpenSearch; SLOs, error budgets, k6 load testing, game days and postmortems
+- **Programming:** Go, Python (FastAPI, pytest), Bash
+- **Linux & networking:** systemd, cgroups, /proc, strace, lsof, ss, tcpdump, tshark, tc netem, network namespaces, nftables
 - **AI automation:** Claude API (tool use, agents), MCP servers
 
 ## Data and ML background
