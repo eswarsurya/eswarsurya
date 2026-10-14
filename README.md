@@ -6,7 +6,7 @@
 
 **Site Reliability & DevOps Engineer** · Kubernetes · Linux · Go · AWS · Azure · Google Cloud  
 Dublin, Ireland · Stamp 1G · Open to SRE, DevOps, Platform and Cloud Engineer roles in Ireland  
-[Portfolio](https://eswarsurya.github.io/eswar-portfolio/) · [LinkedIn](https://www.linkedin.com/in/eswarsurya76/) · [Email](mailto:eswardanaboina@gmail.com)
+[Portfolio](https://eswarsuryadanaboina.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/eswarsurya76/) · [Email](mailto:eswardanaboina@gmail.com)
 
 I have nearly four years of DevOps experience across an internship and an engineering role. At Blockstars, I built Jenkins delivery pipelines that reduced releases from more than two hours to about 15 minutes, and took part in the production on-call rota. I work across AWS infrastructure, CI/CD, Docker, Kubernetes, Terraform and Ansible. My MSc in Data Analytics (2:1) adds a practical data and machine-learning background.
 
