@@ -8,32 +8,25 @@
 Dublin, Ireland · Stamp 1G · Open to SRE, DevOps, Platform and Cloud Engineer roles in Ireland  
 [Portfolio](https://eswarsuryadanaboina.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/eswarsurya76/) · [Email](mailto:eswardanaboina@gmail.com)
 
-I have nearly four years of DevOps experience across an internship and an engineering role. At Blockstars, I built Jenkins delivery pipelines that reduced releases from more than two hours to about 15 minutes, and took part in the production on-call rota. I work across AWS infrastructure, CI/CD, Docker, Kubernetes, Terraform and Ansible. My MSc in Data Analytics (2:1) adds a practical data and machine-learning background.
+Nearly four years of DevOps experience across an internship and an engineering role. At Blockstars, I built Jenkins delivery pipelines that reduced releases from more than two hours to about 15 minutes, and took part in the production on-call rota. I bring hands-on experience across AWS infrastructure, CI/CD, Docker, Kubernetes, Terraform and Ansible, backed by an MSc in Data Analytics (2:1).
 
 ## Selected engineering work
 
-| Project | What it demonstrates |
+| Project | Evidence |
 | --- | --- |
-| [Go Replicated Key-Value Store](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/go-replicated-kv) | Three-node Go store with quorum reads and writes, read repair and a write-ahead log. Includes SLO alert checks, a k6 load test and a CI game-day scenario with a postmortem. |
-| [On-Prem Platform Lab](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/onprem-platform-lab) | Private data-centre lab with MySQL replication, ELK, OpenLDAP, Nginx and ACME TLS, Apache/PHP, Rundeck and WireGuard. |
-| [Linux Troubleshooting Lab](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/linux-troubleshooting-lab) | Thirteen Linux and network failure scenarios diagnosed with tools including strace, lsof, tcpdump, tshark and tc netem. |
+| [Go Replicated Key-Value Store](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/go-replicated-kv) | Three-node Go service with quorum reads and writes, read repair, a write-ahead log, SLO checks, load testing and a CI game-day scenario with postmortem. |
+| [Linux Troubleshooting Lab](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/linux-troubleshooting-lab) | Thirteen reproducible Linux and networking failure scenarios, diagnosed with tools such as strace, lsof, tcpdump and tc netem. |
 | [Jenkins Delivery Pipeline](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/jenkins-pipeline) | Jenkins configured as code with test, build, scan, gated release, health checks and rollback scenarios. |
 | [Hybrid Cloud & Kubernetes Admin](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/hybrid-cloud-k8s-admin) | AWS networking and cost controls, AKS delivery pipelines, Kubernetes administration drills and OpenSearch operations. |
-| [Grid Signal — Google Cloud](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/gcp-grid-signal) | Terraform-managed Cloud Run, Scheduler and Firestore components for Irish grid-carbon data, with keyless GitHub deployment configuration and a carbon-aware CI gate. |
-| [Human Vitals Anomaly API](https://github.com/eswarsurya/human-vitals-anomaly-api) | Flask and Docker API backed by the thesis dataset, with input validation, feature explanations, tests and a GitHub Actions workflow. |
+| [Human Vitals Anomaly API](https://github.com/eswarsurya/human-vitals-anomaly-api) | Flask and Docker API using thesis data, with input validation, feature explanations, tests and a GitHub Actions workflow. |
 
-### More DevOps projects
+Explore the full [DevOps portfolio](https://github.com/eswarsurya/devops-portfolio) for 16 project directories spanning Kubernetes GitOps, Terraform, observability, automation and cloud engineering. Each has a GitHub Actions workflow; this describes configured workflows, not a claim that every latest run is passing. Cloud infrastructure checks use mocked providers, and live cloud deployments are not claimed.
 
-[Kubernetes GitOps Platform](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/k8s-gitops-platform) · [Terraform AWS Web Stack](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/terraform-aws-webstack) · [Docker CI/CD Pipeline](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/docker-cicd-pipeline) · [Rail Pulse](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/rail-pulse) · [AIOps Triage Agent](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/aiops-triage-agent) · [LLM Gateway](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/llm-gateway) · [Ansible Linux Hardening](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/ansible-linux-hardening) · [CI Log Doctor](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/ci-log-doctor) · [DevOps MCP Server](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/devops-mcp-server) · [Verified S3 Backup](https://github.com/eswarsurya/devops-portfolio/tree/main/projects/aws-s3-backup)
-
-All 16 DevOps projects have dedicated GitHub Actions workflows. This describes configured workflows, not a claim that every latest run is passing. AWS and Azure infrastructure checks use mocked providers; live cloud deployments are not claimed.
-
-## Data and analytics work
+## Additional analytics work
 
 - [Formula 1 Analytics Pipeline — Completed](https://github.com/eswarsurya/formula1-analytics): FastF1 extraction, reusable ETL scripts, data cleaning and race-performance analysis.
-- [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis): MSc research project using a 200,020-row dataset.
-- [Customer Support Ticket Analytics](https://github.com/eswarsurya/customer-support-ticket-analytics-bi) · [Walmart Sales Analytics](https://github.com/eswarsurya/walmart-sales-analytics-python-sql)
-- [LSTM Time-Series Anomaly Detection](https://github.com/eswarsurya/lstm-anomaly-detection-timeseries) · [Bike Sales Tableau Dashboard](https://github.com/eswarsurya/bike-sales-dashboard-tableau-project)
+- [Human Vitals Anomaly Detection Thesis](https://github.com/eswarsurya/human-vitals-anomaly-detection-thesis): MSc research using a 200,020-row dataset.
+- [Other analytics projects](https://github.com/eswarsurya): customer-support and retail analysis, time-series anomaly detection, and a Tableau bike-sales dashboard.
 
 ## Technical skills
 
